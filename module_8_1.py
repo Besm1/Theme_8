@@ -3,6 +3,9 @@ def add_everything_up(a, b):
         result = a + b
     except TypeError:
         result = str(a) + str(b)
+    else:
+        result = round(result,10)
+
     return result
 
 
