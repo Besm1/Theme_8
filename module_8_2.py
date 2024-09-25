@@ -7,7 +7,6 @@ def personal_sum(numbers):
         except TypeError:
             incorrect_numbers += 1
             print(f'Некорректный тип данных для подсчёта суммы - {n}')
-    # print(f'Вход:  {numbers}, сумма {result}, кол-во неправильных {incorrect_numbers}')
     return result, incorrect_numbers
 
 def calculate_average(numbers):
