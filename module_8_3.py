@@ -83,7 +83,7 @@ if __name__ == '__main__':
         print(f'{third.model} успешно создан')
 
     try:
-        third = Car('Model3', 2020202, 100500)
+        third = Car('Model3', 2000000, 100500)
     except IncorrectVinNumber as exc:
         print(exc.message)
     except IncorrectCarNumbers as exc:
